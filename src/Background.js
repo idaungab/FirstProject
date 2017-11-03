@@ -28,6 +28,12 @@ export default class Background extends Component{
                 header={<Cell>Country</Cell>}
                 cell={country.country_name}
               />
+              <Column
+                width={200}
+                header={<Cell>Continent</Cell>}
+                cell={country.continent_name}
+              />
+
           </Table>
         )
       })
