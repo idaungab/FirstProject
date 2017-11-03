@@ -25,12 +25,12 @@ export default class Background extends Component{
             key={country.results}>
               <Column
                 width={200}
-                header={<Cell>Country</Cell>}
+                header={<Cell>Country Name</Cell>}
                 cell={country.country_name}
               />
               <Column
                 width={200}
-                header={<Cell>Continent</Cell>}
+                header={<Cell>Continent Name</Cell>}
                 cell={country.continent_name}
               />
 
